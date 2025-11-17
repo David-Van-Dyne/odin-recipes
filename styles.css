@@ -47,7 +47,7 @@ nav {
     width: fit-content;
     margin: 20px;
 }
-.recipe-links {
+.links-container {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ nav {
     width: 100%;
 }
 
-.recipe-links .link-wrap {
+.links-container .link-wrap {
     flex: 0 1 0;
 }
 
@@ -85,20 +85,8 @@ nav {
     width: max-content;
 }
 
-img {
-    /* margin: 20px; */
-}
-
 a {
     font-size: 20px;
     color: white;
     text-decoration: none;
-}
-
-a:visited {
-    /* color: blue; */
-}
-
-.cheeseburger-wraps {
-    margin-left: 25px;
 }
